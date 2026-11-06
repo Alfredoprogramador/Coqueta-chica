@@ -1,0 +1,6 @@
+{
+  "name": "Coqueta Chic",
+  "description": "Tienda online de moda, ropa deportiva, accesorios, belleza y hogar para elevar tu autoestima.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

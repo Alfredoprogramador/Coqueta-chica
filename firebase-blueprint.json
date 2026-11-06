@@ -1,0 +1,26 @@
+{
+  "rules": {
+    "products": {
+      "description": "Product listings that can be read and managed openly without auth friction",
+      "fields": {
+        "name": "string",
+        "description": "string",
+        "priceBRL": "number",
+        "image": "string",
+        "category": "string",
+        "stockType": "string",
+        "sizes": "array",
+        "colors": "array",
+        "isBestSeller": "boolean",
+        "rating": "number",
+        "reviewsCount": "number"
+      },
+      "permissions": {
+        "read": "true",
+        "create": "true",
+        "update": "true",
+        "delete": "true"
+      }
+    }
+  }
+}
